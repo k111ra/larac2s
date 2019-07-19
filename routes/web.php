@@ -10,16 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-use App\Post;
 
 Route::get('/', function () {
 
     return view('index');
 });
 
-Route::get('/blog', function () {
-    return view('blog');
-});
+Route::get('/blog', 'HomeController@showBlogList');
 Route::get('/contact', function () {
 
     return view('contact');
