@@ -17,6 +17,7 @@ Route::get('/', function () {
 });
 
 Route::get('/blog', 'HomeController@showBlogList');
+
 Route::get('/contact', function () {
 
     return view('contact');
