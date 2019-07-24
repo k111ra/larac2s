@@ -22,6 +22,11 @@ Route::get('/contact', function () {
 
     return view('contact');
 });
+
+// Route::get('/blogdetail/{id}',funtion($id_post) {
+//     return view('blogdetail');
+// });
+
 Route::get('/page', function () {
 
 
