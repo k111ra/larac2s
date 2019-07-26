@@ -23,9 +23,11 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-// Route::get('/blogdetail/{id}',funtion($id_post) {
-//     return view('blogdetail');
-// });
+// Route::get('blogdetail/{n}', function ($n) {
+//     return view('blogdetail')->with('numero',$n);
+
+// })-> where('n','[1-3]');
+Route::get('/blogdetail/{id}', 'BlogDetail@showBlogdetail');
 
 Route::get('/page', function () {
 

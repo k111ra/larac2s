@@ -22,7 +22,7 @@ Contact
     </div>
 </section>
 <!--/#page-breadcrumb-->
-
+{{-- @foreach($post as $post) --}}
 <section id="blog-details" class="padding-top">
     <div class="container">
         <div class="row">
@@ -31,13 +31,13 @@ Contact
                      <div class="col-md-12 col-sm-12">
                         <div class="single-blog blog-details two-column">
                             <div class="post-thumb">
-                                <a href="#"><img src="images/blog/7.jpg" class="img-responsive" alt=""></a>
+                                <a href="#"><img src="/images/blog/7.jpg" class="img-responsive" alt=""></a>
                                 <div class="post-overlay">
                                     <span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
                                 </div>
                             </div>
                             <div class="post-content overflow">
-                                <h2 class="post-title bold"><a href="#"><?php echo $post->id_post  ?></a></h2>
+                                <h2 class="post-title bold"><a href="#"><?php echo $post->title  ?></a></h2>
                                 <h3 class="post-author"><a href="#">Posted by micron News</a></h3>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <br> <br>
 
@@ -197,5 +197,6 @@ Contact
         </div>
     </div>
 </section>
+{{-- @endforeach --}}
 <!--/#blog-->
 @endsection

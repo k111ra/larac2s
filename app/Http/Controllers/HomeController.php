@@ -8,7 +8,7 @@ use App\Post;
 class HomeController extends Controller
 {
     public function showBlogList() {
-        $posts = Post::orderBy('id_post', 'DESC')->paginate(2);
+        $posts = Post::orderBy('id', 'DESC')->paginate(2);
         return view('blog')->with('posts', $posts);
     }
 }
