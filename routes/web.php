@@ -39,3 +39,10 @@ Route::get('/prestation', function () {
 
     return view('prestation');
 });
+
+Route::get('/blog2', function () {
+
+    return view('blog2');
+});
+
+

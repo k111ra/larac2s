@@ -100,16 +100,16 @@ blog
                                 <div class="col-md-12 col-sm-12">
                                     <div class="single-blog two-column">
                                         <div class="post-thumb">
-                                            <a href="blogdetails.html"><img src="images/blog/7.jpg" class="img-responsive" alt=""></a>
+                                            <a href="blogdetails.html"><img src="<?php echo $post->image  ?>" class="img-responsive" alt=""></a>
                                             <div class="post-overlay">
-                                                <span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
+                                                <span class="uppercase"><a href="#"><?php echo $post->created_at  ?>
                                             </div>
                                         </div>
                                         <div class="post-content clearfix">
                                             <h2 class="post-title bold"><a href="/blogdetail/<?php echo $post->id  ?>"><?php echo $post->title  ?> </a></h2>
                                             <h3 class="post-author"><a href="#">Posted by micron News</a></h3>
-                                            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber [...]</p>
-                                            <a href="#" class="read-more">View More</a>
+                                            <p><?php echo $post->content ?></p>
+                                            <a href="/blogdetail/<?php echo $post->id  ?>" class="read-more">Voire Plus</a>
                                             <div class="post-bottom clearfix">
                                                 <ul class="nav navbar-nav post-nav">
                                                     <li><a href="#"><i class="fa fa-tag"></i>Creative</a></li>
@@ -122,7 +122,11 @@ blog
                                 </div>
                             @endforeach
                         @else
-                            <div>Il n'y a pas de post enregistré</div>
+                            <div class="alert alert-warning fade in">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                <h4 align='center'>Whoops!!!</h4>
+                                <p align='center'>Il n'y a pas de post ici!!</p>
+                            </div>
                         @endif
 
                     </div>
