@@ -26,44 +26,42 @@
                 </button>
 
                 <a class="navbar-brand" href="index.html">
-                    <h1><p style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 50px; " > <b style="color: yellow">A</b>C<font color="skyblue">2</font>S</p></h1>
+                    <h1><p style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 50px; " > <img src="/images/logo2.png " width="75px" height="100px" alt=""/>C<font color="skyblue">2</font>S</p></h1>
+                    {{-- <img src="/images/logo-ac2s.png" width="100px" height="100px" alt=""> --}}
                 </a>
 
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="/">AC2S, qui somme nous</a></li>
-                    <li class="dropdown"><a href="/page">Pages <i class="fa fa-angle-down"></i></a>
+                    <li class="dropdown"><a href="/page">EXPERTISE <i class="fa fa-angle-down"></i></a>
                         <ul role="menu" class="sub-menu">
-                            <li><a href="aboutus.html">About</a></li>
-                            <li><a href="aboutus2.html">About 2</a></li>
-                            <li><a href="service.html">Services</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="contact.html">Contact us</a></li>
-                            <li><a href="contact2.html">Contact us 2</a></li>
-                            <li><a href="404.html">404 error</a></li>
-                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                            <li><a href="#">Conception et réalisation de sites web & Logiciel </a></li>
+                            <li><a href="#">Développement d’applications mobiles </a></li>
+                            <li><a href="#">Nom de domaine & Hébergement</a></li>
+                            <li><a href="#">Référencement organique</a></li>
+                            <li><a href="#">Sauvegarde de données</a></li>
+                            <li><a href="#">BI/ Outils de reporting</a></li>
+                            <li><a href="#">Veille, Analyse, E réputation, Influence</a></li>
+                            <li><a href="#">Stratégie digitale</a></li>
+                            <li><a href="#">Audit, sécurité IT & conseils</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="dropdown"><a href="/prestation">Prestations <i class="fa fa-angle-down"></i></a>
+                        <ul role="menu" class="sub-menu">
+
+                            <li><a href="#">Logo et identité visuelle</a></li>
+                            <li><a href="#">Gestion des réseaux sociaux</a></li>
+                            <li><a href="#">Impression : flyers, cartes de visite, support com...</a></li>
+                            <li><a href="#">Campagnes marketing (e-mailing, SMS…)</a></li>
+                            <li><a href="#">Formation</a></li>
+
                         </ul>
                     </li>
                     <li class="dropdown"><a href="/blog">Blog <i class="fa fa-angle-down"></i></a>
-                        <ul role="menu" class="sub-menu">
-                            <li><a href="blog.html">Blog Default</a></li>
-                            <li><a href="blogtwo.html">Timeline Blog</a></li>
-                            <li><a href="blogone.html">2 Columns + Right Sidebar</a></li>
-                            <li><a href="blogthree.html">1 Column + Left Sidebar</a></li>
-                            <li><a href="/blog2">Blog Masonary</a></li>
-                            <li><a href="blogdetails.html">Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="/prestation">Prestations <i class="fa fa-angle-down"></i></a>
-                        <ul role="menu" class="sub-menu">
-                            <li><a href="portfolio.html">Portfolio Default</a></li>
-                            <li><a href="portfoliofour.html">Isotope 3 Columns + Right Sidebar</a></li>
-                            <li><a href="portfolioone.html">3 Columns + Right Sidebar</a></li>
-                            <li><a href="portfoliotwo.html">3 Columns + Left Sidebar</a></li>
-                            <li><a href="portfoliothree.html">2 Columns</a></li>
-                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                        </ul>
+
                     </li>
                     <li><a href="/contact">Contactez Nous</a></li>
                 </ul>

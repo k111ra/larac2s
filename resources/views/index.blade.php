@@ -12,24 +12,25 @@ Home
 
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="images/home/326252-P9NGJU-588.jpg" alt="">
+                        <img src="/images/home/2612371.jpg" alt="">
                         <div class="carousel-caption">
-                            <h3>First slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h1 style=" background-color:white;">Conception web-design et logo </h1>
+                            <p style="font-size:20px;">AC2S a réalisé de nombreux sites institutionnels, sites d'entreprises et sites grand public, grâce à ses compétences dans les dernières technologies du Web et du Web 2.0 : logiciels libres, PHP5, JQuery, Flash AS3, Ajax, CMS du marché tels que Drupal, Joomla, WordPress ou Magento.</p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="images/home/17897.jpg" alt="">
+
+                        <img src="images/home/388088-PC4BSQ-224.jpg" alt="">
                         <div class="carousel-caption">
-                            <h3>Second slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h3>Faites évoluer vos idées </h3>
+                            <p>Vous êtes à la recherche de solutions adaptées pour optimiser la gestion de vos activités. Eh bien, AC2S répond à vos besoins en vous proposant des logiciels spécifiques à vos métiers</p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="images/home/2552649.jpg" alt="">
-                        <div class="carousel-caption">
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <img src="images/home/882.jpg" alt="">
+                        <div class="carousel-caption" >
+                            <h3>hebergement & réseau informatique </h3>
+                            <p>La possession du nom de domaine est un acte majeur dans la protection et la communication de votre activité. C’est pourquoi nous mettons à votre disposition des services intégrés à des tarifs compétitifs défiant la concurrence</p>
                         </div>
                     </div>
                 </div>
@@ -57,28 +58,31 @@ Home
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/home/icon1.png" alt="">
+                            <img src="/images/ico/cloud-storage-128.png" alt="">
                         </div>
-                        <h2>Incredibly Responsive</h2>
-                        <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
+                        <h2>Sauvegarde de données</h2>
+                        <p> L’enjeu est de vous proposer des systèmes de haut niveau de sécurité de sauvegarde de données sensibles et stratégiques en mode back up et de vous les restituer en état en cas de :
+                             <br> Perte des données de l’entreprise
+                             <br> Reprise de l’activité suite à un sinistre
+                                </p>
                     </div>
                 </div>
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/home/icon2.png" alt="">
+                            <img src="/images/ico/web-design-128.png" alt="">
                         </div>
-                        <h2>Superior Typography</h2>
-                        <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
+                        <h2>Conception et réalisation de sites web & Logiciel</h2>
+                        <p>Vous êtes à la recherche de solutions adaptées pour optimiser la gestion de vos activités. Eh bien, AC2S répond à vos besoins en vous proposant des logiciels spécifiques à vos métiers </p>
                     </div>
                 </div>
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/home/icon3.png" alt="">
+                            <img src="images/ico/control-panel-160.png" alt="">
                         </div>
-                        <h2>Swift Page Builder</h2>
-                        <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
+                        <h2>Business Intelligence & Outils de reporting</h2>
+                        <p>La Business Intelligence ou informatique décisionnelle analyse des données pour assister les dirigeants et les décideurs dans leurs prises de décisions.</p>
                     </div>
                 </div>
             </div>
@@ -89,7 +93,7 @@ Home
     <section id="action" class="responsive">
         <div class="vertical-center">
              <div class="container">
-                <div class="row">
+                {{-- <div class="row">
                     <div class="action take-tour">
                         <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
                             <h1 class="title">Triangle Corporate Template</h1>
@@ -101,7 +105,7 @@ Home
                              </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
    </section>
@@ -112,17 +116,17 @@ Home
             <div class="row">
                 <div class="single-features">
                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="images/home/image1.png" class="img-responsive" alt="">
+                        <img src="images/home/18157.jpg" class="img-responsive" alt="">
                     </div>
                     <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <h2>Experienced and Enthusiastic</h2>
-                        <P>Pork belly leberkas cow short ribs capicola pork loin. Doner fatback frankfurter jerky meatball pastrami bacon tail sausage. Turkey fatback ball tip, tri-tip tenderloin drumstick salami strip steak.</P>
+                        <h2>Web Design Tendance</h2>
+                        <P>AC2S a réalisé de nombreux sites institutionnels, sites d'entreprises et sites grand public, grâce à ses compétences dans les dernières technologies du Web et du Web 2.0 : logiciels libres, PHP5, JQuery, Flash AS3, Ajax, CMS du marché tels que Drupal, Joomla, WordPress ou Magento. <br> Si votre projet intègre une boutique de e-commerce, nous assurons la mise en œuvre des moyens de paiement en ligne du marché : Cartes Bancaires, Micro-paiement, PayPal, Mobile money </P>
                     </div>
                 </div>
                 <div class="single-features">
                     <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <h2>Built for the Responsive Web</h2>
-                        <P>Mollit eiusmod id chuck turducken laboris meatloaf pork loin tenderloin swine. Pancetta excepteur fugiat strip steak tri-tip. Swine salami eiusmod sint, ex id venison non. Fugiat ea jowl cillum meatloaf.</P>
+                        <h2>Audit, sécurité IT & conseils</h2>
+                        <P>Nous avons développé pour vous est une démarche méthodique qui permet d’évaluer à une période donnée les risques potentiels auxquels votre système informatique et d’échange de données est exposé. En conséquence, nous proposons des solutions de protections fiables de protection. </P>
                     </div>
                     <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/home/image2.png" class="img-responsive" alt="">
@@ -133,8 +137,8 @@ Home
                         <img src="images/home/image3.png" class="img-responsive" alt="">
                     </div>
                     <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <h2>Experienced and Enthusiastic</h2>
-                        <P>Ut officia cupidatat anim excepteur fugiat cillum ea occaecat rump pork chop tempor. Ut tenderloin veniam commodo. Shankle aliquip short ribs, chicken eiusmod exercitation shank landjaeger spare ribs corned beef.</P>
+                        <h2>Stratégie digitale</h2>
+                        <P>AC2S se tient à votre disposition pour vous accompagner dans votre transformation digitale en vue d’améliorer votre efficacité opérationnelle. L’enjeu est de mettre au centre des pratiques la digitalisation des services et tâches à accomplir aussi bien en interne qu’à l’externe entre vos clients, partenaires et vous.</P>
                     </div>
                 </div>
             </div>
