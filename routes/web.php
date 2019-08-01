@@ -29,10 +29,10 @@ Route::get('/contact', function () {
 // })-> where('n','[1-3]');
 Route::get('/blogdetail/{id}', 'BlogDetail@showBlogdetail');
 
-Route::get('/page', function () {
+Route::get('/expertise', function () {
 
 
-    return view('page');
+    return view('expertise');
 
 });
 Route::get('/prestation', function () {
@@ -40,9 +40,13 @@ Route::get('/prestation', function () {
     return view('prestation');
 });
 
-Route::get('/blog2', function () {
+Route::get('/expertise/pricing', function () {
 
-    return view('blog2');
+    return view('expertise.pricing');
+});
+Route::get('/prestation/sms', function () {
+
+    return view('prestation.sms');
 });
 
 
